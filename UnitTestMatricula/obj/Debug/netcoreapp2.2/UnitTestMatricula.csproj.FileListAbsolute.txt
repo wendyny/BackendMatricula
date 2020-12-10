@@ -1,0 +1,37 @@
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.deps.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.runtimeconfig.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.runtimeconfig.dev.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.AssemblyInfo.cs
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csproj.CopyComplete
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.deps.json
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.runtimeconfig.json
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.runtimeconfig.dev.json
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\UnitTestMatricula.pdb
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csprojAssemblyReference.cache
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.AssemblyInfoInputs.cache
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.AssemblyInfo.cs
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csproj.CoreCompileInputs.cache
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.csproj.CopyComplete
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.dll
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.pdb
+C:\Users\Wong\Documents\Projects\Backend\UnitTestMatricula\obj\Debug\netcoreapp2.2\UnitTestMatricula.genruntimeconfig.cache

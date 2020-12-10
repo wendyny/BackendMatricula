@@ -1,0 +1,59 @@
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.deps.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.dev.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cs
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfo.cs
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.deps.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.dev.json
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csprojAssemblyReference.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cs
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfo.cs
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\source\repos\MatriculaWebApplicationEF - Repo\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.deps.json
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.json
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.dev.json
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cache
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cs
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfo.cs
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\usuario\Desktop\Matricula Net Core y React\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.deps.json
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.json
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.runtimeconfig.dev.json
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\bin\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csprojAssemblyReference.cache
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfoInputs.cache
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.AssemblyInfo.cs
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.csproj.CoreCompileInputs.cache
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cache
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorAssemblyInfo.cs
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.RazorTargetAssemblyInfo.cache
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.dll
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.pdb
+C:\Users\Wong\Documents\Projects\Backend\MatriculaWebApplicationEF\obj\Debug\netcoreapp2.2\MatriculaWebApplicationEF.genruntimeconfig.cache
