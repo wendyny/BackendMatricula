@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ks1rkSeQMimrHh03pthBq9UCfI0INoaU5MVxeZJKZ8wXbz1Q6ez78BrKUSsp587Yr9HweFr+ugZd+bZxkHwy7g==",
+  "dgSpecHash": "nCsQ2KHwTiSoN4NoBDUBTK4PEmt+8cCZE9SBKTzyH3g9M3DYqsL+1leyMA+IsydzJh6FwId/ZENevNEqc8divQ==",
   "success": true,
-  "projectFilePath": "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
+  "projectFilePath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

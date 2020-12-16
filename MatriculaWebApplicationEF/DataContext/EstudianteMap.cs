@@ -16,6 +16,10 @@ namespace MatriculaWebApplicationEF.DataContext
             builder.HasOne(e => e.Curso)
                 .WithMany(e => e.Estudiantes)
                 .HasForeignKey(e =>e.CursoId);
+
+            builder.HasOne(p => p.Pais)
+               .WithMany(e => e.EstudiantesPorPais)
+               .HasForeignKey(p=>p.PaisId);
         }
     }
 }

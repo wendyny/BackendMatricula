@@ -14,9 +14,33 @@ namespace MatriculaWebApplicationEF.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.6")
+                .HasAnnotation("ProductVersion", "3.1.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Asignatura", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 1)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CursoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CursoId");
+
+                    b.ToTable("Asignaturas","dbo");
+                });
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Curso", b =>
                 {
@@ -31,6 +55,36 @@ namespace MatriculaWebApplicationEF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Cursos");
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Docente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
+                        .HasAnnotation("SqlServer:IdentitySeed", 1)
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AsignaturaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Edad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Sexo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AsignaturaId");
+
+                    b.ToTable("Docentes","dbo");
                 });
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Estudiante", b =>
@@ -53,6 +107,9 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50);
 
+                    b.Property<int>("PaisId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Sexo")
                         .HasColumnType("nvarchar(max)");
 
@@ -60,7 +117,63 @@ namespace MatriculaWebApplicationEF.Migrations
 
                     b.HasIndex("CursoId");
 
+                    b.HasIndex("PaisId");
+
                     b.ToTable("Estudiantes","dbo");
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Pais", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Paises");
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("NombreUsuario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("passwordUsuario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Asignatura", b =>
+                {
+                    b.HasOne("MatriculaWebApplicationEF.Models.Curso", "Curso")
+                        .WithMany("Asignaturas")
+                        .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Docente", b =>
+                {
+                    b.HasOne("MatriculaWebApplicationEF.Models.Asignatura", "Asignatura")
+                        .WithMany("DocentesPorAsignatura")
+                        .HasForeignKey("AsignaturaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Estudiante", b =>
@@ -68,6 +181,12 @@ namespace MatriculaWebApplicationEF.Migrations
                     b.HasOne("MatriculaWebApplicationEF.Models.Curso", "Curso")
                         .WithMany("Estudiantes")
                         .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MatriculaWebApplicationEF.Models.Pais", "Pais")
+                        .WithMany("EstudiantesPorPais")
+                        .HasForeignKey("PaisId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

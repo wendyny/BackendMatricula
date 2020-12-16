@@ -34,6 +34,18 @@ namespace MatriculaWebApplicationEF
 
             services.AddScoped<CursoDomainService>();
             services.AddScoped<CursoAppService>();
+
+            services.AddScoped<UsuarioDomainService>();
+            services.AddScoped<UsuarioAppService>();
+
+            services.AddScoped<AsignaturaDomainService>();
+            services.AddScoped<AsignaturaAppService>();
+
+            services.AddScoped<PaisDomainService>();
+            services.AddScoped<PaisAppService>();
+
+            services.AddScoped<DocenteDomainService>();
+            services.AddScoped<DocenteAppService>();
             services.AddDbContext<UniversidadDataContext>();
             
             services.AddMvc().AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);

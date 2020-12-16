@@ -13,7 +13,7 @@ namespace MatriculaWebApplicationEF.DomainServices
 
             if (registroCurso.Nombre == "")
             {
-                return "Por favor ingresar un nombre de curso valido";
+                return "Por favor ingrese un nombre valido para el curso";
             }
 
             return null;

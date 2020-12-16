@@ -10284,11 +10284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VANGUARDIA\\REACT\\Backend\\UnitTestMatricula\\UnitTestMatricula.csproj",
+      "projectUniqueName": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\UnitTestMatricula\\UnitTestMatricula.csproj",
       "projectName": "UnitTestMatricula",
-      "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\UnitTestMatricula\\UnitTestMatricula.csproj",
+      "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\UnitTestMatricula\\UnitTestMatricula.csproj",
       "packagesPath": "C:\\Users\\Elizabeth Ordoñez\\.nuget\\packages\\",
-      "outputPath": "D:\\VANGUARDIA\\REACT\\Backend\\UnitTestMatricula\\obj\\",
+      "outputPath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\UnitTestMatricula\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10307,8 +10307,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {
-              "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj"
+            "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {
+              "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj"
             }
           }
         }

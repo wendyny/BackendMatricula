@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {}
+    "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {}
   },
   "projects": {
-    "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {
+    "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
+        "projectUniqueName": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
         "projectName": "MatriculaWebApplicationEF",
-        "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
+        "projectPath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\MatriculaWebApplicationEF.csproj",
         "packagesPath": "C:\\Users\\Elizabeth Ordoñez\\.nuget\\packages\\",
-        "outputPath": "D:\\VANGUARDIA\\REACT\\Backend\\MatriculaWebApplicationEF\\obj\\",
+        "outputPath": "D:\\VANGUARDIA\\REACT\\Backend\\ReactWendy\\MatriculaWebApplicationEF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

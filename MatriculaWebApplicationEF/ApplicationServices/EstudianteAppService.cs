@@ -36,9 +36,16 @@ namespace MatriculaWebApplicationEF.ApplicationServices
                 return "El curso no existe";
             }
 
+            var pais = _baseDatos.Paises.FirstOrDefault(q => q.Id == estudianteRequest.PaisId);
+
+            var NoExistePais = pais == null;
+            if (NoExistePais)
+            {
+                return "El pais no  existe";
+            }
 
             var respuestaDomain = _estudianteDomainServices.RegistrarEstudiante(estudianteRequest);
-
+            
             var vieneConErrorEnElDomain = respuestaDomain != null;
             if (vieneConErrorEnElDomain)
             {

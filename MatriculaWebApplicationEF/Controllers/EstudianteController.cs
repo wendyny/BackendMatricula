@@ -25,7 +25,7 @@ namespace MatriculaWebApplicationEF.Controllers
 
             if (_baseDatos.Estudiantes.Count() == 0)
             {
-                _baseDatos.Estudiantes.Add(new Estudiante { Nombre = "Josue", Edad = 25, Sexo = "M", CursoId = 1 });
+                _baseDatos.Estudiantes.Add(new Estudiante { Nombre = "Josue", Edad = 25, Sexo = "M", CursoId = 1,PaisId=1 });
                 _baseDatos.SaveChanges();
             }
         }
@@ -35,14 +35,14 @@ namespace MatriculaWebApplicationEF.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Estudiante>>> GetEstudiantes()
         {
-            return await _baseDatos.Estudiantes.Include(q => q.Curso).ToListAsync();
+            return await _baseDatos.Estudiantes.Include(q => q.Curso).Include(p=>p.Pais).ToListAsync();
         }
 
         // GET: api/Estudiante/1
         [HttpGet("{id}")]
         public async Task<ActionResult<Estudiante>> GetEstudiante(long id)
         {
-            var estudiante = await _baseDatos.Estudiantes.Include(q => q.Curso).FirstOrDefaultAsync(q => q.Id == id);
+            var estudiante = await _baseDatos.Estudiantes.Include(q => q.Curso).Include(p => p.Pais).FirstOrDefaultAsync(q => q.Id == id);
 
             if (estudiante == null)
             {
@@ -124,6 +124,11 @@ namespace MatriculaWebApplicationEF.Controllers
             if (curso == null)
             {
                 return NotFound("El curso no existe");
+            }
+            Pais pais = await _baseDatos.Paises.FirstOrDefaultAsync(q => q.Id == item.PaisId);
+            if (pais == null)
+            {
+                return NotFound("El pais no existe");
             }
 
             _baseDatos.Entry(item).State = EntityState.Modified;

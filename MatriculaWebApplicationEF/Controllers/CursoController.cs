@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,7 +25,7 @@ namespace MatriculaWebApplicationEF.Controllers
             _cursoAppService = cursoAppService;
             if (_baseDatos.Cursos.Count() == 0)
             {
-                _baseDatos.Cursos.Add(new Curso { Nombre = "Algebra" });
+                _baseDatos.Cursos.Add(new Curso { Nombre = "Angular" });
                 _baseDatos.SaveChanges();
             }
         }
@@ -34,14 +34,14 @@ namespace MatriculaWebApplicationEF.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Curso>>> GetCursos()
         {
-            return await _baseDatos.Cursos.Include(e=>e.Estudiantes).ToListAsync();
+            return await _baseDatos.Cursos.Include(q => q.Estudiantes).Include(q => q.Asignaturas).ToListAsync();
         }
 
         // GET: api/Curso/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Curso>> GetCurso(int id)
         {
-            var curso = await _baseDatos.Cursos.Include(q => q.Estudiantes).FirstOrDefaultAsync(q => q.Id == id);
+            var curso = await _baseDatos.Cursos.Include(q => q.Estudiantes).Include(q => q.Asignaturas).FirstOrDefaultAsync(q => q.Id == id);
 
             if (curso == null)
             {
@@ -86,7 +86,7 @@ namespace MatriculaWebApplicationEF.Controllers
         }
         // POST Rango: api/Curso
         [HttpPost("rango")]
-        public async Task<ActionResult<Estudiante>> PostCurso(IEnumerable<Curso> cursos)
+        public async Task<ActionResult<Curso>> PostCurso(IEnumerable<Curso> cursos)
         {
             _baseDatos.Cursos.AddRange(cursos);
             await _baseDatos.SaveChangesAsync();
@@ -132,3 +132,4 @@ namespace MatriculaWebApplicationEF.Controllers
         }
     }
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
