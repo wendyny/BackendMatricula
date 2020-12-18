@@ -2,7 +2,7 @@
 
 namespace MatriculaWebApplicationEF.Migrations
 {
-    public partial class CrearBd : Migration
+    public partial class CrearDB : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -37,17 +37,16 @@ namespace MatriculaWebApplicationEF.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Usuarios",
+                schema: "dbo",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NombreUsuario = table.Column<string>(nullable: true),
-                    passwordUsuario = table.Column<string>(nullable: true),
+                    UsuarioId = table.Column<string>(nullable: false),
+                    PasswordUsuario = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     isActive = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Usuarios", x => x.Id);
+                    table.PrimaryKey("PK_Usuarios", x => x.UsuarioId);
                 });
 
             migrationBuilder.CreateTable(
@@ -153,14 +152,15 @@ namespace MatriculaWebApplicationEF.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Usuarios");
-
-            migrationBuilder.DropTable(
                 name: "Docentes",
                 schema: "dbo");
 
             migrationBuilder.DropTable(
                 name: "Estudiantes",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios",
                 schema: "dbo");
 
             migrationBuilder.DropTable(

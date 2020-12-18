@@ -13,7 +13,7 @@ namespace MatriculaWebApplicationEF.DataContext
         public DbSet<Usuario> Usuarios { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer(@"Server=DESKTOP-P1J30VH;DataBase=UniversidadDataBase;Trusted_Connection=True");
+            optionBuilder.UseSqlServer(@"Server=DESKTOP-P1J30VH;DataBase=UniversidadDB;Trusted_Connection=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -23,6 +23,8 @@ namespace MatriculaWebApplicationEF.DataContext
             modelBuilder.ApplyConfiguration(new AsignaturaMap());
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new DocenteMap());
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
             base.OnModelCreating(modelBuilder);
         }
     }

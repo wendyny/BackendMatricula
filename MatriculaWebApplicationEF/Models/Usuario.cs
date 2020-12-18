@@ -7,9 +7,8 @@ namespace MatriculaWebApplicationEF.Models
 {
     public class Usuario
     {
-        public int Id { get; set; }
-        public string NombreUsuario { get; set; }
-        public string passwordUsuario { get; set; }
+        public string UsuarioId { get; set; }
+        public string PasswordUsuario { get; set; }
         public bool isActive { get; set; }
     }
 }

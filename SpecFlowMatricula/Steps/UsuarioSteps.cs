@@ -19,17 +19,13 @@ namespace SpecFlowMatricula.Steps
             _scenarioContext = scenarioContext;
         }
         [Given(@"el nombre del usuario es ""(.*)""")]
-        public void GivenElNombreDelUsuarioEs(string nombre)
-        {
-            nombre = "";
-            _usuario.NombreUsuario = nombre;
-        }
+        
         
         [Given(@"el password del usuario es ""(.*)""")]
         public void GivenElPasswordDelUsuarioEs(string password)
         {
             password = "";
-            _usuario.passwordUsuario = password;
+            _usuario.PasswordUsuario = password;
         }
         
         [When(@"ingresar el usuario")]

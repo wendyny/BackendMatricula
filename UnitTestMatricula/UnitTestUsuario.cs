@@ -7,20 +7,7 @@ namespace UnitTestMatricula
     [TestClass]
     public class UnitTestUsuario
     {
-        [TestMethod]
-        public void PruebaParaValidarNombreUsuarioVacio()
-        {
-            //AAA
-            //Arrange
-            string nombreUsuario = "";
-            //Act
-            Usuario usuario = new Usuario();
-            usuario.NombreUsuario = nombreUsuario;
-            UsuarioDomainService usuarioDomainService = new UsuarioDomainService();
-            var resultado = usuarioDomainService.RegistrarUsuario(usuario);
-            //Assert
-            Assert.AreEqual("Por favor ingresar un nombre de usuario valido", resultado);
-        }
+       
         [TestMethod]
         public void PruebaParaValidarPasswordVacio()
         {
@@ -29,7 +16,7 @@ namespace UnitTestMatricula
             string password = "";
             //Act
             Usuario usuario = new Usuario();
-            usuario.passwordUsuario = password;
+            usuario.PasswordUsuario = password;
             UsuarioDomainService usuarioDomainService = new UsuarioDomainService();
             var resultado = usuarioDomainService.RegistrarUsuario(usuario);
             //Assert

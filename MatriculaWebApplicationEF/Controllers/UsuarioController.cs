@@ -24,7 +24,7 @@ namespace MatriculaWebApplicationEF.Controllers
             _usuarioAppService = usuarioAppService;
             if (_baseDatos.Usuarios.Count() == 0)
             {
-                _baseDatos.Usuarios.Add(new Usuario { NombreUsuario = "Wendy", passwordUsuario="1234",isActive=false });
+                _baseDatos.Usuarios.Add(new Usuario { UsuarioId = "Wendy", PasswordUsuario="1234",isActive=false });
                 _baseDatos.SaveChanges();
             }
         }
@@ -36,11 +36,22 @@ namespace MatriculaWebApplicationEF.Controllers
             return await _baseDatos.Usuarios.ToListAsync();
         }
 
-         
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        [HttpGet("{UsuarioId}/{PasswordUsuario}")]
+        public async Task<ActionResult<Usuario>> GetUsuario(string UsuarioId, string PasswordUsuario)
         {
-            var usuario = await _baseDatos.Usuarios.FirstOrDefaultAsync(q => q.Id == id);
+            var response = await _usuarioAppService.TieneAccesoUsuario(UsuarioId, PasswordUsuario);
+
+            if (response != "success")
+            {
+                return BadRequest(response);
+
+            }
+            return Ok("success");
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Usuario>> GetUsuario(string id)
+        {
+            var usuario = await _baseDatos.Usuarios.FirstOrDefaultAsync(q => q.UsuarioId == id);
 
             if (usuario == null)
             {
@@ -52,9 +63,9 @@ namespace MatriculaWebApplicationEF.Controllers
 
         
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> PutUsuario(string id, Usuario usuario)
         {
-            if (id != usuario.Id)
+            if (id != usuario.UsuarioId)
             {
                 return BadRequest();
             }
@@ -77,7 +88,7 @@ namespace MatriculaWebApplicationEF.Controllers
                 return BadRequest(respuesta);
             }
 
-            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.Id }, usuario);
+            return CreatedAtAction(nameof(GetUsuario), new { id = usuario.UsuarioId }, usuario);
         }
 
         [HttpPost("rango")]
@@ -105,9 +116,9 @@ namespace MatriculaWebApplicationEF.Controllers
 
         }
         [HttpDelete("rango")]
-        public async Task<IActionResult> DeleteUsuarios(IEnumerable<int> ids)
+        public async Task<IActionResult> DeleteUsuarios(IEnumerable<string> ids)
         {
-            IEnumerable<Usuario> usuarios = _baseDatos.Usuarios.Where(q => ids.Contains(q.Id));
+            IEnumerable<Usuario> usuarios = _baseDatos.Usuarios.Where(q => ids.Contains(q.UsuarioId));
 
             if (usuarios == null)
             {
@@ -119,9 +130,9 @@ namespace MatriculaWebApplicationEF.Controllers
 
             return Ok("success");
         }
-        private bool UsuarioExists(int id)
+        private bool UsuarioExists(string id)
         {
-            return _baseDatos.Usuarios.Any(e => e.Id == id);
+            return _baseDatos.Usuarios.Any(e => e.UsuarioId == id);
         }
     }
 }

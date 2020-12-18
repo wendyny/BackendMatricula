@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MatriculaWebApplicationEF.Migrations
 {
     [DbContext(typeof(UniversidadDataContext))]
-    [Migration("20201214091453_Crear Bd")]
-    partial class CrearBd
+    [Migration("20201217213110_CrearDB")]
+    partial class CrearDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -141,23 +141,20 @@ namespace MatriculaWebApplicationEF.Migrations
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Usuario", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("UsuarioId")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("NombreUsuario")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<string>("PasswordUsuario")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<bool>("isActive")
                         .HasColumnType("bit");
 
-                    b.Property<string>("passwordUsuario")
-                        .HasColumnType("nvarchar(max)");
+                    b.HasKey("UsuarioId");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarios","dbo");
                 });
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Asignatura", b =>
